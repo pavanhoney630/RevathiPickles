@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css";
 import { Button, Avatar, Typography } from '@mui/material';
 import { GitHub, YouTube, Instagram, LinkedIn } from '@mui/icons-material';
-import Logo2 from "../../../images/logo2.jpeg";
+import Logo2 from "../../../images/logo2.png";
 
 const About = () => {
     const visitInstagram = () => {
@@ -22,7 +22,7 @@ const About = () => {
             src= {Logo2}
             alt="logopickle"
           />
-          <Typography>स्वादिष्ट Achar</Typography>
+          <Typography>Revathi Pickles</Typography>
           <Button onClick={visitInstagram} color="primary">
           Welcome to Jangam Pickels, your one-stop destination for Jangam pickles. 
           We take immense pride in offering you a diverse range of locally crafted, freshly homemade pickles that 

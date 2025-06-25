@@ -14,7 +14,7 @@ const Contact = () => {
     <div className="contactContainer">
         <a className="mailBtn" href="sivalingampavankalyan@gmail.com">
             <Button variant="contained" color="primary" size="large">
-                Contact:7013520273
+                Contact:8977098141
             </Button>
         </a>
         </div>
