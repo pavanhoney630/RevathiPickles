@@ -33,7 +33,7 @@ const Loginpage = () => {
 
   const { name, email, password } = user;
   const [avatar, setAvatar] = useState("");
-  const [avatarPreview, setAvatarPreview] = useState("/logo192.png");
+  const [avatarPreview, setAvatarPreview] = useState("/logo.png");
 
   const loginSubmit = (e) => {
     e.preventDefault();

@@ -6,7 +6,7 @@ import Logo2 from "../../../images/logo2.png";
 
 const About = () => {
     const visitInstagram = () => {
-        window.location="https://www.instagram.com/iamsumankd/";
+        window.location="https://www.instagram.com/pavanhoney7/";
     };
   return (
     <div className="aboutSection">
