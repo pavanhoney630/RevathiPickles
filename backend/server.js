@@ -45,6 +45,9 @@ const server = app.listen(process.env.PORT, ()=> {
 })
 
 
+app.get('/', (req, res) => {
+  res.send({ message: 'API is working' });
+});
 
 //unhandled promise rejection
 process.on("unhandledRejection", err => {
