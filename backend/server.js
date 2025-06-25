@@ -45,7 +45,7 @@ const server = app.listen(process.env.PORT, ()=> {
 })
 
 
-app.get('/', (req, res) => {
+app.get('/pavan', (req, res) => {
   res.send({ message: 'API is working' });
 });
 
